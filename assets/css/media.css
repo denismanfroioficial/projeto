@@ -1,6 +1,6 @@
 /*Tablet*/
 @media screen and (max-width: 600px){
-/*  Pega os dois primeiros itens  */
+  /*  Pega os dois primeiros itens  */
   .duo-first-mobile section:nth-child(-n+2),
   .duo-first-mobile article:nth-child(-n+2),
   .duo-first-mobile aside:nth-child(-n+2){
