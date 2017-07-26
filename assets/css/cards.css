@@ -26,10 +26,7 @@
 .card section,
 .card article,
 .card aside,
-.card main{
-  margin: .5em;
-  background-color:tomato; /*Apenas para exemplo*/
-}
+.card main{margin: .5em;}
 /* Complementos de Cards */
 .first-full section:first-child,
 .first-full article:first-child,

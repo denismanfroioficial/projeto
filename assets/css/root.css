@@ -1,8 +1,12 @@
 :root{
+	/*
+		## Reset
+	*/
+	--font-family-default: sans-serif;
 	/* 
 		### Cards
 	*/
-	--bg-color-card: rgba(0,0,0,.1);
+	--bg-color-card: rgba(255,255,255,1);
 	/*--font-size-header-card:;*/
 	/*--font-color-header-card:;*/
 }
