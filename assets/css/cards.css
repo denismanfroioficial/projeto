@@ -1,0 +1,45 @@
+.card{
+  background-color: var(--bg-color-card);
+  justify-content: space-between;
+  padding: .5em;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+}
+.card header{
+  -webkit-flex: 1 100%;
+  -moz-flex: 1 100%;
+  -ms-flex: 1 100%;
+  -o-flex: 1 100%;
+  flex: 1 100%;
+  margin: .5em;
+  font-size: var(--font-size-header-card);
+  color: var(--font-color-header-card);
+}
+.card section,
+.card article,
+.card aside{
+  margin: .5em;
+  background-color:tomato; /*Apenas para exemplo*/
+}
+/* Complementos de Cards */
+.first-full section:first-child,
+.first-full article:first-child,
+.first-full aside:first-child{
+  -webkit-flex: 1 100%;
+  -moz-flex: 1 100%;
+  -ms-flex: 1 100%;
+  -o-flex: 1 100%;
+  flex: 1 100%;
+}
+.duo-first section:nth-child(-n+2),
+.duo-first article:nth-child(-n+2),
+.duo-first aside:nth-child(-n+2){
+  -webkit-flex: 1 100%;
+  -moz-flex: 1 100%;
+  -ms-flex: 1 100%;
+  -o-flex: 1 100%;
+  flex: 1 100%;
+}

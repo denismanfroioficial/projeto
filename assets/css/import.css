@@ -1,4 +1,12 @@
+/*Root*/
+@import 'root.css';
 /*Font Icon*/
 @import 'font-awesome.min.css';
 /*Reset*/
 @import 'reset.css';
+/*Clone CSS*/
+@import 'clone.css';
+/*@Media*/
+@import 'media.css';
+/*Cards*/
+@import 'cards.css';

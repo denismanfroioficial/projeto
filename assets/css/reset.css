@@ -8,6 +8,11 @@
 	-webkit-tap-highlight-color: transparent;
 	-moz-tap-highlight-color: transparent;
 	tap-highlight-color: transparent;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
 }
 body, html{
 	font-size: 100%; /*16px*/
