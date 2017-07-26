@@ -25,14 +25,16 @@
 }
 .card section,
 .card article,
-.card aside{
+.card aside,
+.card main{
   margin: .5em;
   background-color:tomato; /*Apenas para exemplo*/
 }
 /* Complementos de Cards */
 .first-full section:first-child,
 .first-full article:first-child,
-.first-full aside:first-child{
+.first-full aside:first-child,
+.first-full main:first-child{
   -webkit-flex: 1 100%;
   -moz-flex: 1 100%;
   -ms-flex: 1 100%;
@@ -41,7 +43,8 @@
 }
 .duo-first section:nth-child(-n+2),
 .duo-first article:nth-child(-n+2),
-.duo-first aside:nth-child(-n+2){
+.duo-first aside:nth-child(-n+2),
+.duo-first main:nth-child(-n+2){
   -webkit-flex: 1 100%;
   -moz-flex: 1 100%;
   -ms-flex: 1 100%;
