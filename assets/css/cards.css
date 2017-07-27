@@ -1,7 +1,6 @@
 .card{
   background-color: var(--bg-color-card);
   justify-content: space-between;
-  padding: .5em;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -13,20 +12,21 @@
   display: -o-flex;
   display: flex;
 }
+.card[respiro]{padding: .3em;}
 .card header{
   -webkit-flex: 1 100%;
   -moz-flex: 1 100%;
   -ms-flex: 1 100%;
   -o-flex: 1 100%;
   flex: 1 100%;
-  margin: .5em;
   font-size: var(--font-size-header-card);
   color: var(--font-color-header-card);
 }
-.card section,
-.card article,
-.card aside,
-.card main{margin: .5em;}
+.card[respiro] header{margin: .3em;}
+.card[respiro] section,
+.card[respiro] article,
+.card[respiro] aside,
+.card[respiro] main{margin: .3em;}
 /* Complementos de Cards */
 .first-full section:first-child,
 .first-full article:first-child,

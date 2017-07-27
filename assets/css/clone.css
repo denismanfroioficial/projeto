@@ -43,28 +43,28 @@
 /*
 	## Flex direction
 */
-.flex-direction-column{
+.column{
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
 }
-.flex-direction-column-reverse{
+.column-reverse{
 	-webkit-flex-direction: column-reverse;
 	-moz-flex-direction: column-reverse;
 	-ms-flex-direction: column-reverse;
 	-o-flex-direction: column-reverse;
 	flex-direction: column-reverse;
 }
-.flex-direction-row{
+.row{
 	-webkit-flex-direction: row;
 	-moz-flex-direction: row;
 	-ms-flex-direction: row;
 	-o-flex-direction: row;
 	flex-direction: row;
 }
-.flex-direction-row-reverse{
+.row-reverse{
 	-webkit-flex-direction: row-reverse;
 	-moz-flex-direction: row-reverse;
 	-ms-flex-direction: row-reverse;
@@ -94,4 +94,12 @@
 	-ms-flex-wrap: wrap-reverse;
 	-o-flex-wrap: wrap-reverse;
 	flex-wrap: wrap-reverse;
+}
+/*
+	## Limit content
+*/
+.limit{
+	max-width: var(--limit-content);
+	width: 100vw;
+	margin: 0 auto;
 }

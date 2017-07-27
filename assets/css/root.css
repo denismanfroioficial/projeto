@@ -1,8 +1,12 @@
 :root{
 	/*
-		## Reset
+		### Reset
 	*/
 	--font-family-default: sans-serif;
+	/*
+		### Limit
+	*/
+	--limit-content: 1000px;
 	/* 
 		### Cards
 	*/
